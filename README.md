@@ -1,4 +1,11 @@
 # UDP_Multithreading_Server_and_Client
+<-----------------------------------------Run Step--------------------------------->  
+1、UDP_Thread_Server_ZZ/main.cpp  
+    [接受线程开始]  
+    [发送线程开始]  
+2、UDP_Thread_Client_ZZ/main.cpp  
+    [接受线程开始]  
+    [发送线程开始]  
 <---------------------------------UDP Multithreading Server------------------------>  
 Author: Wow-zheng    
 Illustrate：  
