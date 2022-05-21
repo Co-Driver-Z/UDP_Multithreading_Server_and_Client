@@ -58,5 +58,6 @@ Illustrate:
     2、myThread2  
     Send data to the total server  
 <---------------------------------------------------------------------------------->  
-    Please feel free to contact me if you have any questions or find bugs, it is greatly appreciated  
+    Please feel free to contact me if you have any questions or find bugs, it is greatly appreciated:  
+    zheng_zhang163@163.com  
 <---------------------------------------------------------------------------------->  
