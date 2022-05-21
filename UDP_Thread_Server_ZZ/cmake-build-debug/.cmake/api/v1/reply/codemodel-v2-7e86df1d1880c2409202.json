@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UDP_Thread_Server_ZZ",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UDP_Thread_Server_ZZ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UDP_Thread_Server_ZZ-Debug-21320eee0dbe82dcb3de.json",
+					"name" : "UDP_Thread_Server_ZZ",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zhangzheng/Documents/Workspace/Github/UDP_Multithreading_Server_and_Client/UDP_Thread_Server_ZZ/cmake-build-debug",
+		"source" : "/Users/zhangzheng/Documents/Workspace/Github/UDP_Multithreading_Server_and_Client/UDP_Thread_Server_ZZ"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
