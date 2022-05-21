@@ -11,6 +11,7 @@ Illustrate：
     2、myThread2  
     发送处理后的数据至总Client端,查看Received_Data_Buf是否有数据，有数据则处理后发送;  
     否则不发送数据；(假设处理时间为0.5s)  
+      
     [English]  
     As a total server side, this process accepts the data of the total client side  
     as soon as possible and stores it in the container, and at the same time  
@@ -36,6 +37,7 @@ Illustrate:
     接受来自总Server端的数据,设置recvfrom为阻塞1s，不断接受数据;一旦接受数据则打印数据  
     2、myThread2  
     向总Server端发送数据  
+      
     [English]  
     As a total client side, this process continuously sends data to the server  
     side at 0.1s intervals,and at the same time accepts the data returned by the  
