@@ -26,8 +26,8 @@ Illustrate：
     Send the processed data to the total client, check whether there is data in  
     Received_Data_Buf, if there is data, send it after processing; otherwise, no  
     data will be sent; (assuming the processing time is 0.5s)  
-<---------------------------------------------------------------------------------->  
-  
+<----------------------------------------------------------------------------------->  
+ 
 <---------------------------------UDP Multithreading Client------------------------>  
 Author: Wow-zheng  
 Illustrate:  
