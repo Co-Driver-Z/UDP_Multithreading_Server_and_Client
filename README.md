@@ -2,7 +2,7 @@
 <---------------------------------UDP Multithreading Server------------------------>  
 Author: Wow-zheng    
 Illustrate：  
-    [Chinese]
+                                     [Chinese]
     本进程作为一个总Server端，尽可能快地接受总Client端的数据并存储在容器中，同时处理容器  
     中的数据(0.5s)发送至总Client端。该进程分为2个线程，记为线程1和线程2，以下是线程的功能：  
     1、myThread1  
@@ -11,8 +11,7 @@ Illustrate：
     2、myThread2  
     发送处理后的数据至总Client端,查看Received_Data_Buf是否有数据，有数据则处理后发送;  
     否则不发送数据；(假设处理时间为0.5s)  
-      
-    [English]  
+                                     [English]  
     As a total server side, this process accepts the data of the total client side  
     as soon as possible and stores it in the container, and at the same time  
     processes the data in the container (0.5s) and sends result to the total client side.  
@@ -30,15 +29,14 @@ Illustrate：
 <---------------------------------UDP Multithreading Client------------------------>  
 Author: Wow-zheng  
 Illustrate:  
-    [Chinese]  
+                                     [Chinese]  
     本进程作为一个总Client端， 以0.1s的时间间隔不断将数据发送至Server端，同时尽可能  
     接受Server端返回的数据; 该进程分为两个线程，记为线程1和线程2，以下是线程的功能：  
     1、myThread1  
     接受来自总Server端的数据,设置recvfrom为阻塞1s，不断接受数据;一旦接受数据则打印数据  
     2、myThread2  
     向总Server端发送数据  
-      
-    [English]  
+                                     [English]  
     As a total client side, this process continuously sends data to the server  
     side at 0.1s intervals,and at the same time accepts the data returned by the  
     server side as much as possible; the process is divided into two threads,  
